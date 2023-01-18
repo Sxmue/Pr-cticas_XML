@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido>
+    <cliente>Francisco Romero</cliente>
+    <entrega>
+        <calle  numero='3' piso='tercero' letra='B'>Huerta</calle>
+    <fecha>19-1-2023</fecha>
+    </entrega>
+    <articulos>
+        <articulo>Playstation 5</articulo>
+    </articulos>
+</pedido>
+
