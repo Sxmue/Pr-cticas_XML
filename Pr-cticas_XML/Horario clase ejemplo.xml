@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<Horario>
+    <ciclo>DAM</ciclo>
+    <curso>Primero</curso>
+    <Dias>
+        <Dia nombre="Lunes">
+            <asignatura hora="8:00-9:00">Fol</asignatura>
+            <asignatura hora="9:00-10:00">Marcas</asignatura>
+            <asignatura hora="10:00-11:00">Programacion</asignatura>
+            <recreo hora="11:00-11:30"></recreo>
+            <asignatura hora="11:30-12:30">sistemas</asignatura>
+            <asignatura hora="12:30-13:30">Base de datos</asignatura>
+            <asignatura hora="13:30-14:30">Entornos</asignatura>
+        </Dia>
+    </Dias>
+</Horario>
+
+
+
+
+
+<Horario>
+    <Modulos>
+        <modulo nombre="Lenguaje de marcas">
+            <hora dia="lunes">9:00</hora>
+            <hora dia="Martes">10:00</hora>
+            <hora dia="miercoles">11:00</hora>
+        </modulo>
+    </Modulos>
+</Horario>
+
