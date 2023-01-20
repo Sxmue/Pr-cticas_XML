@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<Reserva fecha="34/34/24" origen="web">
+        <nombre></nombre>
+        <telefono></telefono>
+        <email></email>
+        <fecha></fecha>
+        <comensales></comensales>
+        <presupuestoPer></presupuestoPer>
+    <Comentario></Comentario>
+</Reserva>
+
