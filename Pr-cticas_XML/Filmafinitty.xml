@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<Taquillas>
+    <pais nombre="España">
+        <fecha>
+            <inicio>25/12/2022</inicio>
+            <final>27/12/2022</final>
+        </fecha>
+        <peliculas>
+            <pelicula pos="1">
+                <Título>Trolls 2: Gira Mundial</Título>
+                <genero>Animación</genero>
+                <semanas>10</semanas>
+                <recaudacion_finde moneda='euros'>34.000</recaudacion_finde>
+                <recaudacion_total moneda='euros'>2.492.000</recaudacion_total>
+                <url></url>
+            </pelicula>
+            <pelicula pos="2">
+                <Título>Otra vuelta de tuerca</Título>
+                <genero>Terror</genero>
+                <semanas>6</semanas>
+                <recaudacion_finde moneda ='euros'>22.000</recaudacion_finde>
+                <recaudacion_total moneda='euros'>184.000</recaudacion_total>
+                <url></url>
+            </pelicula>
+        </peliculas>
+    </pais>
+    <pais nombre="USA">
+         <fecha>
+            <inicio>25/12/2022</inicio>
+            <final>27/12/2022</final>
+        </fecha>
+        <peliculas>
+            <pelicula pos="1">
+                <Título>Wonder Woman 1984</Título>
+                <genero>Fantástico</genero>
+                <semanas>1</semanas>
+                <recaudacion_finde moneda='Dólares'>16.700.000</recaudacion_finde>
+                <recaudacion_total moneda='Dólares'>16.700.000</recaudacion_total>
+                <url></url>
+            </pelicula>
+            <pelicula pos="2">
+                <Título>Noticias del gran mundo</Título>
+                <genero>Western</genero>
+                <semanas>1</semanas>
+                <recaudacion_finde moneda='Dólares'>2.250.000</recaudacion_finde>
+                <recaudacion_total moneda='Dólares'>2.250.000</recaudacion_total>
+                <url></url>
+            </pelicula>
+            <pelicula pos="3">
+                <Título>Los Croods:Una nueva era</Título>
+                <genero>Animación</genero>
+                <semanas>5</semanas>
+                <recaudacion_finde moneda='Dólares'>1.745.000</recaudacion_finde>
+                <recaudacion_total moneda='Dólares'>30.362.000</recaudacion_total>
+                <url></url>
+            </pelicula>
+            <pelicula pos="4">
+                <Título>Monster Hunter</Título>
+                <genero>Fantástico</genero>
+                <semanas>2</semanas>
+                <recaudacion_finde moneda='Dólares'>1.097.000</recaudacion_finde>
+                <recaudacion_total moneda='Dólares'>4.190.000</recaudacion_total>
+                <url></url>
+            </pelicula>
+        </peliculas>
+        
+    </pais>
+    
+</Taquillas>
+
