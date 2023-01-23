@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Factura num='999'>
+    <Empresa>Equipos Digitales S.L</Empresa>
+    <direccion
+        <Calle tipo='Avenida'>Valladolid</Calle>
+        <ciudad>Madrid</ciudad>
+        <cod_postal>28015</cod_postal>
+    </direccion>
+    <C.I.F>Q-9876543</C.I.F>
+    <teléfono>91.777.66.88</teléfono>
+    <fecha>12-01-2005</fecha>
+    <Pedido_num>731</Pedido_num>
+    <Forma_de_pago>Efectivo</Forma_de_pago>
+    <Datos_cliente></Datos_cliente>
+</Factura>
+
