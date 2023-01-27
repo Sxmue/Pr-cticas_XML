@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<root>
+    <peticion user="23132123" req="50" dat1="">
+        <region>Málaga</region>
+        <fecha>29/1/2023</fecha>
+    </peticion>
+    
+    <respuesta req="50">
+        <prevision>nubes</prevision>
+        <descripcion>intervalos nubosos con bajo riesgo de lluevias</descripcion>
+        <dia>domingo</dia>
+        <informacion>
+            <temperatura></temperatura>
+            <presion></presion>
+        </informacion>
+        
+    </respuesta>
+</root>
+
