@@ -1,0 +1,13 @@
+{
+    "categoria":"junior",
+    "empleado":{
+        "nombre":"etc",
+        "apellido":"Pacome",
+        "puesto":{
+            "codigo":"4342",
+            "descripcion":"hace cosas",
+            "sueldo":34234
+        }
+         
+    }
+}

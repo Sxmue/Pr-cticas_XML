@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE Reserva[
+<!ELEMENT Reserva (nombre,telefono,email,fecha,comensales,presupuestoPer,Comentario)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT comensales (#PCDATA)>
+<!ELEMENT presupuestoPer (#PCDATA)>
+<!ELEMENT Comentario (#PCDATA)>
+
+
+
+
+
+]>
+
+
+
+
+<Reserva>
+        <nombre></nombre>
+        <telefono></telefono>
+        <email></email>
+        <fecha></fecha>
+        <comensales></comensales>
+        <presupuestoPer></presupuestoPer>
+    <Comentario></Comentario>
+</Reserva>
+    
+
+
