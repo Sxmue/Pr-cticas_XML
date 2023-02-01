@@ -1,0 +1,33 @@
+{
+  "informacion":{  
+  "ciclo":"DAM",
+    "curso":"primero",
+    "tutor":"Paco"
+  },
+    
+    "modulo":{    
+    "nombre":"Lenguaje de marcas",
+        "profesor":"Francisco Romero",
+        "estadisticas":{
+        "numero_aprobados":10,
+        "numero_suspensos":6
+        }
+    },
+  "alumnos":[
+        
+    {
+    "nombre":"paco",
+            "nota1":5,
+            "nota2":5,
+            "nota3":7
+            
+        }
+    
+    
+    
+    
+    ]
+    
+    
+    
+}
