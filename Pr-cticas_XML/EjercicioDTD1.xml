@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas[
+<!ELEMENT personas (persona*)>
+<!ELEMENT persona (nombre, apellidos, email+, parentesco)>
+<!ATTLIST persona dni CDATA #IMPLIED >
+<!ATTLIST persona edad CDATA #IMPLIED >
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT apellidos (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+<!ELEMENT parentesco (#PCDATA) >
+
+
+]>
+<personas>
+    <persona dni="234234234" edad="56">
+       <nombre> "paco"</nombre>
+       <apellidos> "navas"</apellidos>
+       <email> "ronaldinho@hotmail.com"</email>
+       <email> "ronaldinho@onlyfans.com"</email> 
+       <email> "ronaldinho@gmails.com"</email>  
+       <parentesco>"padre"</parentesco> 
+    </persona>
+    <persona dni="234234234" edad="56">
+       <nombre>"Tony"</nombre>
+       <apellidos>"Soprano"</apellidos>
+       <email>"cesur@hotmail.com"</email>
+       <email>"ronaldinho@onlyfans.com"</email> 
+       <email>"matogente@gmails.com"</email>  
+       <parentesco>"Patriarca"</parentesco> 
+    </persona>
+</personas>
+
