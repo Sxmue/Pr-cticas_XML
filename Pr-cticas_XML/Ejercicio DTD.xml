@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE cesur[ 
+<!ELEMENT cesur (alumnos,profesores) >
+<!ELEMENT alumnos ( alumno+ ) >
+<!ELEMENT alumno (personalinfo, infoescolar) >
+<!ELEMENT modulos ( modulo+ )>
+<!ELEMENT personalinfo (nombre, apellidos) >
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT apellidos  (#PCDATA) >
+<!ELEMENT infoescolar (ciclo, fecha_matriculacion, modulos+) >
+<!ELEMENT ciclo (#PCDATA)>
+<!ELEMENT fecha_matriculacion (#PCDATA) >
+<!ELEMENT modulo (#PCDATA) >
+<!ELEMENT profesores ( profesor+ )>
+<!ELEMENT profesor (personalinfo, asignaturas+ )>
+<!ELEMENT asignaturas (asignatura)>
+<!ELEMENT asignatura (nombre, ciclo)>
+
+
+
+
+
+
+
+
+]>
+
+
+<cesur>
+    <alumnos>
+        <alumno>
+        <personalinfo>
+            <nombre>sdadasd</nombre>
+            <apellidos>asdasd</apellidos>
+        </personalinfo>
+        <infoescolar>
+        <ciclo>sadasd</ciclo>
+        <fecha_matriculacion>asdasd</fecha_matriculacion>
+        <modulos>
+            <modulo>asdas</modulo>
+            <modulo>asdasd</modulo>
+        </modulos>
+        </infoescolar>
+        </alumno>
+    </alumnos>
+    
+    
+    <profesores>
+        <profesor>
+        <personalinfo>
+            <nombre>asdasd</nombre>
+            <apellidos>asdasd</apellidos>
+        </personalinfo>
+        <asignaturas>
+            <asignatura>
+                <nombre>sadasd</nombre>
+                <ciclo>asdasd</ciclo>
+            </asignatura>
+        </asignaturas>
+        </profesor>
+    </profesores>    
+    
+    
+    
+    
+</cesur>
+

@@ -9,8 +9,8 @@
 <!ELEMENT email (#PCDATA) >
 <!ELEMENT parentesco (#PCDATA) >
 
-
 ]>
+
 <personas>
     <persona dni="234234234" edad="56">
        <nombre> "paco"</nombre>
