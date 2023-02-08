@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE aeropuerto[
+<!-- elemento raiz--> 
+<!ELEMENT aeropuerto (nombre, vuelos, fecha)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!-- Vuelos-->
+<!ELEMENT vuelos (vuelo+) >
+<!ELEMENT vuelo (diario?, origen, destino, llegada, salida) >
+<!ATTLIST vuelo cod ID #REQUIRED > 
+<!ATTLIST vuelo estado (C|E|R) "E" >
+<!ELEMENT diario EMPTY>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT llegada (#PCDATA)>
+<!ELEMENT salida (#PCDATA)>
+]>
+<aeropuerto>
+    <nombre>AGP</nombre>
+    <vuelos>
+        <vuelo cod="V22" estado="R">
+            <diario/>
+            <origen>NY</origen>
+            <destino>Chicago</destino>
+            <llegada>9:30</llegada>
+            <salida>11:30</salida>
+        </vuelo>
+        <vuelo cod="V23" estado="R">
+            <diario/>
+            <origen>NY</origen>
+            <destino>Miami</destino>
+            <llegada>10:15</llegada>
+            <salida>11:15</salida>
+        </vuelo>
+    </vuelos>
+    <fecha>13/02/23</fecha>
+</aeropuerto>
+
