@@ -3,7 +3,10 @@
 <pedido id="74823729">
     <cliente>Francisco Romero</cliente>
     <contenido>
-                PlayStation 5</contenido>
+    <articulo>PlayStation 5</articulo>
+    <articulo>Howarts Legacy</articulo>
+    <articulo>PSVR</articulo>
+    </contenido>
     <entrega>
         <tipovia>Calle</tipovia>
         <lugar>Huerta</lugar>
