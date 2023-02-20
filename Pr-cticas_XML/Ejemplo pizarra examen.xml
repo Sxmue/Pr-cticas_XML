@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clase[ 
+<!ELEMENT clase (alumno)*>
+<!ELEMENT alumno (nombre, apellidos, dni, modulos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT modulos (modulo)* >
+<!ELEMENT modulo (nombre_mod, nota)>
+<!ELEMENT nombre_mod (#PCDATA)>
+<!ELEMENT nota (#PCDATA)>
+
+
+]>
+
+<clase>
+    <alumno>
+        <nombre>Paco</nombre>
+        <apellidos>Perez Rosales</apellidos>
+        <dni>3423423432</dni>
+        <modulos>
+            <modulo>
+                <nombre_mod>Sistemas</nombre_mod>
+                <nota>7</nota>
+            </modulo>
+            <modulo>
+                <nombre_mod>Bases de Datos</nombre_mod>
+                <nota>8.7</nota>
+            </modulo>
+            <modulo>
+                <nombre_mod>Lenguajes de marcas</nombre_mod>
+                <nota>4</nota>
+            </modulo>
+            <modulo>
+                <nombre_mod>Programacion</nombre_mod>
+                <nota>5</nota>
+            </modulo>
+            <modulo>
+                <nombre_mod>Entornos</nombre_mod>
+                <nota>2</nota>
+            </modulo>
+        </modulos>
+    </alumno>
+    <alumno>
+        <nombre>Benito</nombre>
+        <apellidos>Camela</apellidos>
+        <dni>13213124</dni>
+        <modulos>
+            <modulo>
+                <nombre_mod>Programacion</nombre_mod>
+                <nota>9</nota>
+            </modulo>
+            <modulo>
+                <nombre_mod>FOL</nombre_mod>
+                <nota>6.5</nota>
+            </modulo>
+        </modulos>
+    </alumno>
+    
+</clase>
