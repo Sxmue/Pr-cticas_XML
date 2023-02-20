@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clase[ 
+<!ELEMENT clase (alumno)*>
+<!ELEMENT alumno (nombre, apellidos, dni, modulos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT modulos (modulo)* >
+<!ELEMENT modulo (nombre_mod, nota)>
+<!ELEMENT nombre_mod (#PCDATA)>
+<!ELEMENT nota (#PCDATA)>
+
+
+]>
+
+<clase>
+    <alumno>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <dni></dni>
+        <modulos>
+            <modulo>
+                <nombre_mod></nombre_mod>
+                <nota></nota>
+            </modulo>
+            <modulo>
+                <nombre_mod></nombre_mod>
+                <nota></nota>
+            </modulo>
+            <modulo>
+                <nombre_mod></nombre_mod>
+                <nota></nota>
+            </modulo>
+            <modulo>
+                <nombre_mod></nombre_mod>
+                <nota></nota>
+            </modulo>
+            <modulo>
+                <nombre_mod></nombre_mod>
+                <nota></nota>
+            </modulo>
+        </modulos>
+    </alumno>
+    <alumno>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <dni></dni>
+        <modulos>
+            <modulo>
+                <nombre_mod></nombre_mod>
+                <nota></nota>
+            </modulo>
+            <modulo>
+                <nombre_mod></nombre_mod>
+                <nota></nota>
+            </modulo>
+            <modulo>
+                <nombre_mod></nombre_mod>
+                <nota></nota>
+            </modulo>
+            <modulo>
+                <nombre_mod></nombre_mod>
+                <nota></nota>
+            </modulo>
+            <modulo>
+                <nombre_mod></nombre_mod>
+                <nota></nota>
+            </modulo>
+            <modulo>
+                <nombre_mod></nombre_mod>
+                <nota></nota>
+            </modulo>
+        </modulos>
+    </alumno>
+    
+</clase>
+
