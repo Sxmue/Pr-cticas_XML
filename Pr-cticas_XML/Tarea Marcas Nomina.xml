@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<nomina monesa="euros" liquido="1489,47">
+    <datos_asalariado>
+        <nombre>Luis Gutierrez Alonso</nombre>
+        <categoria grupo="1">Ingeniero</categoria>
+    </datos_asalariado>
+    <periodo_liquidacion>
+        <inicio>1/3/2011</inicio>
+        <fin>31/3/2011</fin>
+    </periodo_liquidacion>
+    <devengos total="1852">
+        <salario_base>1500</salario_base>
+        <incentivos>192</incentivos>
+        <horas_extras>
+            <estructurales>60</estructurales>
+            <extraordinarias>100</extraordinarias>
+        </horas_extras>
+    </devengos>
+    <deducciones total="371,53">
+        <contingencias_comunes porcentaje="4,7%" />
+        <desempleo porcentaje="1,55%"/>
+        <fp porcentaje="0,10%"/>
+        <horas_extras>
+            <fuerza_mayor porcentaje="2,00%"/>
+            <otras porcentaje="4,7%"/>
+        </horas_extras>
+        <irpf porcentaje="13%"/>
+           </deducciones>
+        <bases>
+            <prorrata total="250"/>
+            <contingencias_comunes total="1942"/>
+            <contingencias_profesionales total="2102"/>
+        </bases>
+</nomina>
+

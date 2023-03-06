@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- El elemento raiz es HTML-->
+<!DOCTYPE html[
+<!ELEMENT html (head, body) >
+<!-- Empezamos con lo incluido en el head-->
+<!ELEMENT head (title, meta)>
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT meta EMPTY >
+<!ATTLIST meta charset CDATA #REQUIRED >
+ <!--Empezamos con el body -->
+ 
+ 
+ <!--Estp es lo que puede contener -->
+ 
+<!ELEMENT body ( a | p | h1 | h2 | h3 | h4 | img | ul | ol | hr )* >
+
+<!ELEMENT hr EMPTY> 
+
+
+
+
+
+
+
+
+
+]>
+
+<html>
+    
+    
+    
+</html>
