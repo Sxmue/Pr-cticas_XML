@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE historial [
+<!ELEMENT historial (mensaje)+ >
+<!ELEMENT mensaje (contenido, fecha, emisor, receptor) >
+<!ATTLIST mensaje id ID #REQUIRED >
+<!ATTLIST mensaje estado CDATA #REQUIRED>
+<!ELEMENT contenido (#PCDATA) >
+<!ELEMENT fecha (#PCDATA) >
+<!ELEMENT emisor (nombre, numero) >
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT numero (#PCDATA) >
+<!ELEMENT receptor (nombre, numero) >
+
+
+]>
+
+
+<historial>
+    
+    <mensaje id="M23" estado="exito">
+        <contenido>Hola Paco</contenido>
+        <fecha>25/08/1997</fecha>
+        <emisor>
+            <nombre>User</nombre>
+            <numero>User</numero>
+        </emisor>
+        <receptor>
+              <nombre>Paco</nombre>
+            <numero>675897435</numero>
+        </receptor>
+    </mensaje>
+    
+    
+        <mensaje id="M24" estado="exito">
+        <contenido>Hola Samu</contenido>
+        <fecha>25/08/1997</fecha>
+        <emisor>
+            <nombre>Paco</nombre>
+            <numero>675897435</numero>
+        </emisor>
+        <receptor>
+            <nombre>User</nombre>
+            <numero>User</numero>
+        </receptor>
+    </mensaje>
+    
+    
+     <mensaje id="M25" estado="fail">
+        <contenido>No me va el whatsapp</contenido>
+        <fecha>25/08/1997</fecha>
+        <emisor>
+            <nombre>User</nombre>
+            <numero>User</numero>
+        </emisor>
+        <receptor>
+            <nombre>Mama</nombre>
+            <numero>675894566</numero>
+        </receptor>
+    </mensaje>
+    
+</historial>
+
