@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE campamento[
+<!ELEMENT campamento (usuario)+ >
+<!ELEMENT usuario (nombre,apellidos,actividades) >
+<!ATTLIST  usuario id ID #REQUIRED >
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT actividades (actividad)+ >
+<!ELEMENT actividad (nombreACT, categoria, tiempo, user) >
+<!ATTLIST  actividad id ID #REQUIRED >
+<!ELEMENT nombreACT (#PCDATA) >
+<!ELEMENT categoria (#PCDATA) >
+<!ELEMENT tiempo (#PCDATA) >
+<!ELEMENT user EMPTY >
+<!ATTLIST  user usuario IDREF #REQUIRED >
+]>
+
+
+<campamento>
+    
+    <usuario id="U1">
+        
+        <nombre>Paco</nombre>
+        
+        <apellidos>Perez</apellidos>
+        
+        <actividades>
+            
+            <actividad id="A1">
+            <nombreACT>Furbo</nombreACT>
+            <categoria>Deportes</categoria>
+            <tiempo>60h</tiempo>
+            <user usuario="U1"/>
+            </actividad>
+            
+            
+            <actividad id="A2">
+            <nombreACT>Pintura</nombreACT>
+            <categoria>Ocio</categoria>
+            <tiempo>25h</tiempo>
+            <user usuario="U1"/>
+            </actividad>
+            
+            <actividad id="A3">
+            <nombreACT>Cocina</nombreACT>
+            <categoria>Hogar</categoria>
+            <tiempo>36h</tiempo>
+            <user usuario="U1"/>
+            </actividad>
+            
+        </actividades>
+    </usuario>
+    
+    <usuario id="U2">
+               <nombre>Samue</nombre>
+        
+        <apellidos>Leiva Alvarez</apellidos>
+        
+        <actividades>
+            
+            <actividad id="A4">
+            <nombreACT>Cocina</nombreACT>
+            <categoria>Hogar</categoria>
+            <tiempo>36h</tiempo>
+            <user usuario="U2"/>
+            </actividad>
+            
+            
+            <actividad id="A5">
+            <nombreACT>Natacion</nombreACT>
+            <categoria>Aquatica</categoria>
+            <tiempo>40h</tiempo>
+            <user usuario="U2"/>
+            </actividad>
+            
+            <actividad id="A6">
+            <nombreACT>Esgrima</nombreACT>
+            <categoria>deportes</categoria>
+            <tiempo>10h</tiempo>
+            <user usuario="U2"/>
+            </actividad>
+            
+        </actividades>
+        
+    </usuario>
+    
+</campamento>
+
